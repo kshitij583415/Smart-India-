@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+
+*{
+  font-family: 'Inclusive Sans', sans-serif;
+}
+
+html, body {
+  width: auto !important;
+  height: auto !important;
+}
+
+.custom-card {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 15px;
+}
+
+
+.custom-heading {
+  color: #333;
+}
+
+
+.custom-label {
+  color: #555;
+}
+
+
+.custom-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.custom-button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+}
+
+
+.custom-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+  max-height: 400px; 
+}
+
+
+.carousel-inner img {
+  max-width: 100%;
+  height: auto;
+}
+
+.search_input{
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.custom-search-box {
+  width: 300px; 
+}
+
+.e-career ul li {
+  background: #ddd;
+  padding: 18px;
+  border-radius: 28px;
+  margin-top: 0;
+  display: inline-block;
+  margin-bottom: 10px;
+  
+}
+
+.success{
+  min-height:28vh;
+}
+
+.img-res{
+  border:1px solid #ddd;
+  padding:4px;
+}
+
+.new_font{
+  font-size: small;
+  width:100% 
+}
+
+.pricing{
+  height:auto;
+  background-color: #ddd;
+}
+
+.font-weight-bolder{
+  font-weight:600;
+}
+
+
+.pricing-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .pricing-item {
+      margin-bottom: 20px;
+  }
+} 
+
+.shadow-lg{
+  box-shadow: 1px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.font-low{
+  font-weight:100;
+}
+
+.flex-d{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-edit-btn{
+  background-color: #ced8e1; 
+  color: #827878; 
+  border: none; 
+  border-radius: 1px; 
+  cursor: pointer; 
+}
