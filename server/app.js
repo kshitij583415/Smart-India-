@@ -37,7 +37,6 @@ app.get("/about",middleware,(req,res)=>{
 })
 
 app.get("/contact",(req,res)=>{
-    res.cookie("hello","fuckoff");
     res.send("Welcome to contact page");
 })
 
