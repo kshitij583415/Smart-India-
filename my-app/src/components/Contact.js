@@ -37,10 +37,10 @@ function Contact() {
                         </ul>
                     </div>
                     <ul className="sci">
-                        <li><a href="https://www.facebook.com/nassosanagn/"><img src={i1} alt="" /></a></li>
-                        <li><a href="https://www.instagram.com/nassosanagn_/?hl=el"><img src={i2} alt=""/></a></li>
-                        <li><a href="https://twitter.com/nassosanagn"><img src={i3} alt=""/></a></li>
-                        <li><a href="https://www.linkedin.com/in/nassos-anagnostopoulos-2b9631196/"><img src={i4} alt=""/></a></li>
+                        <li><a href="https://www.facebook.com"><img src={i1} alt="" /></a></li>
+                        <li><a href="https://www.instagram.com"><img src={i2} alt=""/></a></li>
+                        <li><a href="https://twitter.com"><img src={i3} alt=""/></a></li>
+                        <li><a href="https://www.linkedin.com"><img src={i4} alt=""/></a></li>
                         
                     </ul>
                 </div>
